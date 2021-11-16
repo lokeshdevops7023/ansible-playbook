@@ -1,5 +1,5 @@
 --
-- hosts: all #server host or group name 
+- hosts: app-server-1 
   sudo: yes
   tasks:
     - name: install apache2
